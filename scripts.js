@@ -1,3 +1,9 @@
+$("#gallery").imagesLoaded(function () {
+  $("#gallery").masonry({
+    itemSelector: ".portfolio-item",
+  });
+});
+
 function setHeight(img) {
   // Get the height of the image
   var height = img.offsetHeight;
